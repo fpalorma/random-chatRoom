@@ -1,0 +1,19 @@
+<h1 class="m-50 font-bold text-4xl text-center mb-2 font-mono">Random-ChatRoom</h1>
+<section class="flex flex-col justify-content-center container">
+    <article id="messages" class="m-auto text-align-left max-h-96 overflow-y-auto  w-75 mb-2 d-flex flex-column-reverse">
+        
+    </article>
+    <div class="container w-75">
+        
+            <div class="input-group mb-3">
+                <a  href="/"class="input-group-text" id="username">User:</a>
+                <input name="text" id="text"type="text" class="form-control mr-1" placeholder="Escribe tu mensaje" >
+                <input class="btn btn-primary btn-sm" type="button" value="Enviar" id="btnSendMessage" >
+            </div>
+           
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script src="/public/scripts/socket.js"></script>
